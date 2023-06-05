@@ -1,0 +1,19 @@
+:root {
+  /* Text */
+  --primaryWeight: 'normal';
+  --secondaryWeight: 'bold';
+
+  /* Color */
+  --colorLight: hsl(29, 22%, 81%);
+  --colorLightMed: hsl(28, 32%, 63%);
+  --colorMed: hsl(22, 25%, 53%);
+  --colorMedDark: hsl(22, 33%, 41%);
+  --colorDark: hsl(16, 51%, 18%);
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: var(--primaryWeight);
+  background-color: var(--colorLight);
+  color: var(--colorDark);
+}
